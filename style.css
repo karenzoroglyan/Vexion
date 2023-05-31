@@ -58,7 +58,7 @@ body {
 }
 /* ------------------------------ */
 
-.main {
+.page {
     flex: 1 1 auto;
 }
 
@@ -84,6 +84,12 @@ body {
 
 .menu__list {
     display: flex;
+}
+
+.menu__list li:nth-child(3) a::after {
+    content: url(img/arrow-right.svg);
+    padding: 0px 0px 0px 8px;
+    position: absolute;
 }
 
 .menu__item:not(:last-child) {
@@ -123,4 +129,58 @@ body {
     background-color: #FFFFFF;
     box-shadow: 0px 0px 35px rgba(160, 151, 180, 0.5);
     color: #000000;
+}
+
+.page__main {
+}
+.main {
+}
+.main__title {
+    display: flex;
+    font-family: 'Archivo';
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 87px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 0px 56px;
+}
+
+.main__title::before {
+    content: "A";
+    font-family: 'Archivo';
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 45px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.main__sub-title {
+}
+.main__buttons {
+}
+.button {
+}
+.button_black {
+}
+.button_white {
+}
+.main__image {
+}
+.main__companies {
+}
+.companies {
+}
+.companies__title {
+}
+.companies__icons {
+}
+.icons-companies {
+}
+.icons-companies__list {
+}
+.icons-companies__item {
 }
